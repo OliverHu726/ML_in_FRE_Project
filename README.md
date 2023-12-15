@@ -7,3 +7,20 @@ Link for colab notebook: https://colab.research.google.com/drive/1BqWA0-XU5XQf07
 * Sentiment Analysis
 * Machine Learning Based on TF-IDF Vectorizer and Sentiments
 * Time Series Analysis using SARIMAX Model
+## Data Description
+* DJIA data, Shape(1989,27): Dialy Dow Jones Industrial Average (DJIA)
+* News data, Shape(1989,27): Historical news headlines from Reddit WorldNews Channel (/r/worldnews). They are ranked by reddit users' votes, and only the top 25 headlines are considered for a single date.
+## Models
+Two types of Machine Learning models are built, targeting on the 'label' variable with '0' representing DJIA decreasing and '1' representing DJIA increasing or stay the same.
+* Use text data as input, applied TF-IDF vectorizer and trained multiple models.
+* Use results of sentiment analysis as input (compound, polarity, subjectivity, pos, neg, and neu). Devide Top1-25 news to 3 groups: 1. Top1-8, 2. Top9-17, and 3. Top18-25. Trained models respectively on 3 groups and all 25 news.
+## Evaluation Metrics
+Accuracy, Precision, F-score, Recall, MAPE, RMSE and R square.
+## Time Series Analysis
+SARIMAX (Seasonal Autoregressive Moving Average) model is used to analyze DJIA data, and make forecasting.
+
+
+
+
+
+
