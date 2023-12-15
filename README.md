@@ -1,7 +1,9 @@
 # ML_in_FRE_Project
 This project researched on News's impact on Stock Market using Dow Jones Index as an indicator.
 All analysis is conducted using google colab, showing as 'Team `Name Undecided`.ipynb' file in the repo.
+
 Link for colab notebook: https://colab.research.google.com/drive/1BqWA0-XU5XQf07PYIwrEfV4-hq7wVQus?usp=drive_link
+
 Link for Streamlit Dashoard App: https://mlinfreprojectapp-hfss9yse9q75tyt9rxuosb.streamlit.app/
 ## Research Procedure
 * Data Loading and Basic EDA
