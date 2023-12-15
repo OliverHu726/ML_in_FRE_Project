@@ -22,6 +22,7 @@ SARIMAX (Seasonal Autoregressive Moving Average) model is used to analyze DJIA d
 Streamlit Link: https://mlinfreprojectapp-hfss9yse9q75tyt9rxuosb.streamlit.app/
 
 App Github Repo link: https://github.com/OliverHu726/ML_in_FRE_Project_App
+
 We have built a streamlit app with two functions:
 * Make predictions on the increase or decrease label of DJIA with user input
 * Showing important analysis results of this project
